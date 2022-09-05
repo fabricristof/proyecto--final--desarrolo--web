@@ -1,0 +1,260 @@
+@import "variables";
+
+
+
+.bodyPrincipal {
+    background: #814E90;
+    font-family: 'Oswald', sans-serif;;
+    padding: 0;
+    color: $color-dos;
+
+
+    img {
+        object-fit: contain;
+        max-width: 350px;
+        max-height: 400px;
+        margin-top: 20px;
+    }
+    
+}
+
+footer {
+    background-color:$color-uno;
+    font-family:'Nunito', sans-serif;
+    font-size: 2rem;
+    height: 400px;
+    box-sizing: border-box;
+    border-top:solid 2px $color-uno ;
+    color: #814E90;
+    
+}
+
+.headerPrincipal {
+    background-color:#814E90;
+    border-bottom: solid 2px $color-uno;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    
+
+    img {
+        max-width:100px;
+        max-width: 100px;
+        margin: 0;
+      
+    }
+    
+   
+}
+
+.navegadorPrincipal {
+    margin-top: 30px;
+    display: inline-block;
+
+    a {
+        color:$color-dos;
+
+        &:hover {
+            background-color:$color-uno;
+            color:$color-tres;
+            font-weight: bolder;
+            
+           
+        }
+    }
+    
+    img {
+        max-width:25px;
+        max-height: 25px;
+    }
+}
+
+
+    
+
+
+.headerPaginas {
+    background-color: $color-tres;
+    height: auto;
+    justify-content:space-between;
+
+   div {
+        justify-content: center;
+        align-items: center;
+   }
+
+   
+    
+    a {
+        color: $color-uno;
+        font-family:'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    img {
+        object-fit: contain;
+        max-width: 100px;
+        max-width: 100px;
+    }
+}
+
+.tituloPaginas {
+    box-sizing: border-box;
+    height: 300px;
+    background-color:$color-uno;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: $color-tres;
+    font-family: 'Oswald', sans-serif;;
+    justify-content: center;
+    
+    p {
+        font-size: 32px;
+        font-weight: lighter;
+        font-style: italic;
+    }
+
+    
+    
+    
+}
+
+.contacto {
+    color: #814E90;
+
+   
+    h2{
+        font-size: 3rem;
+    }
+}
+
+.bodyPaginas {
+    background-color:$color-dos;
+    color: $color-tres;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footerPaginas {
+    
+    background-color:$color-tres;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-top: 50px;
+
+    h3 {
+        
+        font-size: 3rem;
+    }
+}
+
+
+.contenedorFormulario {
+    background-color: $color-uno;
+    width: 90%;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid;
+    font-family: 'Oswald', sans-serif;
+    
+    
+
+    h3 {
+        color: $color-tres;
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    input {
+        width: 50%;
+        border-radius: 5px;
+        background-color:$color-tres;
+        font-family:'Nunito', sans-serif;
+        color:$color-dos;
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+
+       
+           
+    }
+   
+    button {
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: $color-dos;
+        text-align: center;
+        color:$color-tres;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    
+}
+
+
+.contenedorItems {
+    padding: 2px;
+    
+    div {
+        height: 350px;
+        border: solid 1px;
+        box-sizing: border-box;
+        border-color: #2C3639;
+        margin: auto;        
+
+    }
+}
+
+
+
+.contenedorMain {
+    padding: 70px;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+}
+
+.imagenIndex{
+    padding: 10px;
+    margin: 0;
+    
+    
+    
+    img {
+        max-width: 340px;
+        
+
+       
+    }
+}
+
+.texto {
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedorFooter {
+    font-weight: bolder;
+
+    h2 {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+}
